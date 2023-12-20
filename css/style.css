@@ -1,3 +1,19 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to top, white, rgb(68, 67, 67));
+    /* Estándar */
+    background: -webkit-linear-gradient(to top, white, rgb(68, 67, 67));
+    /* Safari 5.1-6, Chrome 10-25 */
+    background: -o-linear-gradient(top, white, rgb(68, 67, 67));
+    /* Opera 11.1-12 */
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 .cmn-divfloat {
     position: fixed !important;
     bottom: 45px;
