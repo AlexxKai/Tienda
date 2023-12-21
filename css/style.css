@@ -10,6 +10,10 @@ body {
     /* Opera 11.1-12 */
 }
 
+.transparente{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 main {
     flex: 1 0 auto;
 }
